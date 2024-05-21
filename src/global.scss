@@ -1,0 +1,36 @@
+/* The following line can be included in a src/App.scss */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './theme/variables';
+@import './theme/bootswatch';
+
+
+html, body {
+    height: 100%;
+}
+  
+#root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.text-ellipsis{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.h-0{
+    height: 0px;
+}
+
+.h-fit{
+    height: fit-content;
+}
+
+.text-justify{
+    text-align: justify;
+}
